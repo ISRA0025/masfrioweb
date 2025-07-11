@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Más Frío | Empresa de Refrigeración</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAApkAAAFSCAYAAAHOb/QuAAAKN2lDQ1BzUkdCIElFQzYxOTY2LTIuMQAAeJydlndUU9kWh8+9N71QkhCKlNBraFICSA29SJEuKjEJEErA">
+  <style>
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(-8deg) scale(1); }
+      50% { transform: rotate(8deg) scale(1.15); }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- WhatsApp Flotante -->
+  <div class="fixed bottom-4 right-4 z-50 flex flex-col items-center space-y-2">
+    <span class="text-sm font-semibold bg-green-600 text-white px-2 py-1 rounded shadow">Chatea con un asesor</span>
+    <a href="https://wa.me/522223903435" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp Chat" class="w-14 h-14 shadow-lg rounded-full animate-[wiggle_1.5s_infinite]" />
+    </a>
+  </div>
+  <!-- Encabezado -->
+  <header class="bg-blue-800 text-white p-6 shadow-lg">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center">
+        <h1 class="text-2xl md:text-3xl font-bold ml-2 animate-bounce">Más Frío</h1>
+      </div>
+      <nav class="space-x-4 text-sm md:text-base">
+        <a href="#empresa" class="hover:underline">La Empresa</a>
+        <a href="#knockout" class="hover:underline">Knock-Out</a>
+        <a href="#catalogo" class="hover:underline">Catálogo</a>
+        <a href="#facebook" class="hover:underline">Facebook</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <!-- Hero -->
+  <section class="bg-white py-12 text-center">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-5xl md:text-6xl font-extrabold mb-6 transform transition-transform duration-700 hover:scale-125 animate-pulse">¡Soluciones que enfrían tu mundo!</h2>
+      <p class="text-lg">Desde 1980, llevamos innovación y compromiso en sistemas de refrigeración comercial e industrial.</p>
+    </div>
+  </section>
+  <!-- Empresa -->
+  <section id="empresa" class="py-12 px-4 md:px-8 bg-gray-100">
+    <div class="text-center mb-6">
+      <img src="MAS FRIO PNG.png" alt="Logotipo Más Frío" class="mx-auto w-48 md:w-64 animate-bounce drop-shadow-lg">
+    </div>
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-2xl font-bold mb-4">¿Quiénes somos?</h3>
+      <p class="text-justify">
+        Más Frío nació en 1980 como “Refrigeración Universal de Puebla”, fundada por Víctor González Sánchez. A lo largo de los años, la empresa se ha consolidado como referente en soluciones de refrigeración, transmitiendo conocimiento de generación en generación, con profesionalismo, innovación y calidad en cada proyecto.
+      </p>
+    </div>
+  </section>
+  <!-- Knockout -->
+  <section id="knockout" class="py-12 px-4 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-2xl font-bold mb-6 text-center">Nuestro Knock-Out</h3>
+      <div class="grid md:grid-cols-3 gap-6 text-center">
+        <div class="p-4 border rounded-lg shadow hover:scale-105 transition-transform bg-blue-50">
+          <h4 class="font-bold text-lg">Misión</h4>
+          <p class="text-sm mt-2">Proveer soluciones eficientes en refrigeración que superen las expectativas de nuestros clientes mediante innovación, servicio y calidad.</p>
+        </div>
+        <div class="p-4 border rounded-lg shadow hover:scale-105 transition-transform bg-blue-50">
+          <h4 class="font-bold text-lg">Visión</h4>
+          <p class="text-sm mt-2">Ser la empresa líder en México en refrigeración industrial, reconocida por nuestra ética, conocimiento técnico y excelencia operativa.</p>
+        </div>
+        <div class="p-4 border rounded-lg shadow hover:scale-105 transition-transform bg-blue-50">
+          <h4 class="font-bold text-lg">Valores</h4>
+          <ul class="text-sm mt-2 space-y-1 text-left">
+            <li>• Honestidad</li>
+            <li>• Responsabilidad</li>
+            <li>• Trabajo en equipo</li>
+            <li>• Compromiso</li>
+            <li>• Servicio al cliente</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Catálogo -->
+  <section id="catalogo" class="py-12 px-4 bg-gray-100">
+    <div class="max-w-3xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">Descarga nuestro Catálogo</h3>
+      <p class="text-gray-500">El catálogo estará disponible próximamente.</p>
+    </div>
+  </section>
+  <!-- Facebook -->
+  <section id="facebook" class="py-12 px-4 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-6">Síguenos en Facebook</h3>
+      <p class="mb-4">Haz clic en el botón para ver nuestras publicaciones, promociones y más.</p>
+      <a href="https://www.facebook.com/masfriomexico" target="_blank" class="inline-flex items-center gap-2 bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-800 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-5 h-5" />
+        Ir a Facebook
+      </a>
+    </div>
+  </section>
+  <!-- Instagram -->
+  <section id="instagram" class="py-12 px-4 bg-gray-100">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-6">Síguenos en Instagram</h3>
+      <p class="mb-4">Mira nuestras historias, proyectos y novedades en redes.</p>
+      <a href="https://www.instagram.com/masfrio_puebla" target="_blank" class="inline-flex items-center gap-2 bg-pink-600 text-white px-6 py-3 rounded hover:bg-pink-700 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="w-5 h-5" />
+        Ir a Instagram
+      </a>
+    </div>
+  </section>
+  <!-- Contacto -->
+  <section id="contacto" class="py-12 px-4 md:px-8 bg-gray-100">
+    <div class="max-w-xl mx-auto">
+      <h3 class="text-2xl font-bold mb-4 text-center">Contáctanos por WhatsApp</h3>
+      <form id="contactForm" class="space-y-4 bg-white p-6 rounded-lg shadow">
+        <div>
+          <label for="nombre" class="block font-medium">Nombre:</label>
+          <input type="text" id="nombre" class="w-full p-2 border rounded" required />
+        </div>
+        <div>
+          <label for="mensaje" class="block font-medium">Mensaje:</label>
+          <textarea id="mensaje" class="w-full p-2 border rounded" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Enviar a WhatsApp</button>
+      </form>
+    </div>
+  </section>
+  <footer class="bg-blue-900 text-white text-center p-4 mt-10">
+    <p>&copy; 2025 Más Frío. Todos los derechos reservados.</p>
+  </footer>
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const nombre = document.getElementById("nombre").value.trim();
+      const mensaje = document.getElementById("mensaje").value.trim();
+      if (!nombre || !mensaje) {
+        swal("Error", "Por favor llena todos los campos.", "error");
+        return;
+      }
+      swal({
+        title: "¿Enviar mensaje por WhatsApp?",
+        text: "Se abrirá WhatsApp con tu mensaje listo para enviar.",
+        icon: "warning",
+        buttons: true,
+        dangerMode: false,
+      }).then((confirm) => {
+        if (confirm) {
+          const phone = "522223903435";
+          const texto = `Hola, soy ${nombre}. ${mensaje}`;
+          const url = `https://wa.me/${phone}?text=${encodeURIComponent(texto)}`;
+          window.open(url, "_blank");
+          localStorage.setItem("ultimoContacto", JSON.stringify({ nombre, mensaje }));
+        }
+      });
+    });
+  </script>
+</body>
+</html>
